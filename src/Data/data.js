@@ -9,8 +9,9 @@ export const Bio = {
     description:
       "I'm an eager and adaptable individual, always up for new challenges. Fueled by a love for learning, I'm committed to delivering top-notch results with a positive and growth-focused mindset.",
     github: "https://github.com/shahlahassan123",
-    resume:
-      "https://drive.google.com/file/d/1HFJ0zRY80GUg3tvYLUwO4pV9AHQYpVZm/view?usp=drive_link",
+    // resume:
+    //   "https://drive.google.com/file/d/1HFJ0zRY80GUg3tvYLUwO4pV9AHQYpVZm/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1KvgxyDtOcypjjXGooOPLgHSkzZoCquNH/view",
     linkedin: "https://www.linkedin.com/in/shahla-hassan/",
   };
   
@@ -180,7 +181,8 @@ export const Bio = {
       ],
       category: "web app",
       github: "https://github.com/shahlahassan123/wordle_React/",
-      webapp: "https://shahlahassan123.github.io/wordle_React/",
+      // webapp: "https://shahlahassan123.github.io/wordle_React/",
+      webapp: "https://wordle-react-delta.vercel.app/",
     },
     {
       id: 0,
@@ -192,23 +194,24 @@ export const Bio = {
       tags: ["React", "HTML", "CSS"],
       category: "web app",
       github: "https://github.com/shahlahassan123/Memory_Game_React/",
-      webapp: "https://shahlahassan123.github.io/Memory_Game_React/",
+      // webapp: "https://shahlahassan123.github.io/Memory_Game_React/",
+      webapp: "https://memory-game-react-tan.vercel.app/",
      
     },
-    {
-      id: 1,
-      title: "Weather App",
-      description:
-        "Enter the city  name and get the weather details",
-      image:
-        "./weather.png",
-      tags: [
-        "React", "HTML", "CSS"
-      ],
-      category: "web app",
-      github: "https://github.com/shahlahassan123/React_WeatherApp/",
-      webapp: "https://shahlahassan123.github.io/React_WeatherApp",
-    },
+    // {
+    //   id: 1,
+    //   title: "Weather App",
+    //   description:
+    //     "Enter the city  name and get the weather details",
+    //   image:
+    //     "./weather.png",
+    //   tags: [
+    //     "React", "HTML", "CSS"
+    //   ],
+    //   category: "web app",
+    //   github: "https://github.com/shahlahassan123/React_WeatherApp/",
+    //   webapp: "https://shahlahassan123.github.io/React_WeatherApp",
+    // },
    
   ];
   
