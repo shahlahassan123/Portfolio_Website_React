@@ -212,6 +212,22 @@ export const Bio = {
     //   github: "https://github.com/shahlahassan123/React_WeatherApp/",
     //   webapp: "https://shahlahassan123.github.io/React_WeatherApp",
     // },
+
+    {
+      id: 2,
+      title: "Photographer Portfolio",
+      description:
+        "This is a portfolio  website for photographers to showcase their work.",
+      image: "./photography.png",
+      tags: [
+        "React", "HTML", "CSS"
+      ],
+      category: "web app",
+      github: "https://github.com/shahlahassan123/photographer-portfolio",
+      webapp: "https://rahil-bassim-photography.vercel.app/",
+    },
+
+
    
   ];
   
