@@ -109,7 +109,7 @@ export const Bio = {
   export const experiencesList = [
     {
       id: 0,
-      img: "https://media.licdn.com/dms/image/C4E0BAQEVMkpCw2CJRA/company-logo_200_200/0/1660576723967/above_beyond_studios_inc_logo?e=1710979200&v=beta&t=zxgAfpUnz1XsY7ixVzlLlbfWXxir0yT6KjZ8eF9STAE",
+      img: "./aboveandbeyond.jpeg",
       role: "Full Stack Developer Intern",
       company: "ABOVE AND BEYOND STUDIOS",
       date: "May 2023 - Aug 2023",
@@ -118,7 +118,7 @@ export const Bio = {
     },
     {
       id: 1,
-      img: "https://upload.wikimedia.org/wikipedia/commons/0/04/National_Bank_of_Kuwait_Logo.svg",
+      img: "./nbl.png",
       role: "Senior Software Development Engineer in Test",
       company: "NATIONAL BANK OF KUWAIT",
       date: "Dec 2021 - June 2022",
@@ -225,6 +225,20 @@ export const Bio = {
       category: "web app",
       github: "https://github.com/shahlahassan123/photographer-portfolio",
       webapp: "https://rahil-bassim-photography.vercel.app/",
+    },
+
+    {
+      id: 3,
+      title: "Blogs",
+      description:
+        "This is a blog website display blogs of different categories.",
+      image: "./Blogs.png",
+      tags: [
+        "React", "HTML", "CSS", "Node.js", "MongoDB"
+      ],
+      category: "web app",
+      github: "https://github.com/shahlahassan123/Blogs_MERN/tree/main",
+      webapp: "https://blogs-mern-frontend.onrender.com/",
     },
 
 
