@@ -118,7 +118,7 @@ export const Bio = {
     },
     {
       id: 1,
-      img: "./nbl.png",
+      img: "./nbk.png",
       role: "Senior Software Development Engineer in Test",
       company: "NATIONAL BANK OF KUWAIT",
       date: "Dec 2021 - June 2022",
@@ -218,7 +218,7 @@ export const Bio = {
       title: "Photographer Portfolio",
       description:
         "This is a portfolio  website for photographers to showcase their work.",
-      image: "./photography.png",
+      image: "./photography2.png",
       tags: [
         "React", "HTML", "CSS"
       ],
@@ -232,7 +232,7 @@ export const Bio = {
       title: "Blogs",
       description:
         "This is a blog website display blogs of different categories.",
-      image: "./Blogs.png",
+      image: "./Blogs3.png",
       tags: [
         "React", "HTML", "CSS", "Node.js", "MongoDB"
       ],
