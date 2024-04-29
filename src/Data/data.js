@@ -241,6 +241,20 @@ export const Bio = {
       webapp: "https://blogs-mern-frontend.onrender.com/",
     },
 
+    {
+      id: 4,
+      title: "ChatGPT Clone",
+      description:
+        "This is a clone of ChatGPT.",
+      image: "./ChatGPT.png",
+      tags: [
+        "React", "HTML", "CSS", "Node.js", "MongoDB"
+      ],
+      category: "web app",
+      github: "https://github.com/shahlahassan123/ChatGPT_clone_MERN",
+      webapp: "https://chatgpt-clone-mern-frontend.onrender.com/",
+    },
+
 
    
   ];
