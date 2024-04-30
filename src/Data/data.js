@@ -11,7 +11,7 @@ export const Bio = {
     github: "https://github.com/shahlahassan123",
     // resume:
     //   "https://drive.google.com/file/d/1HFJ0zRY80GUg3tvYLUwO4pV9AHQYpVZm/view?usp=drive_link",
-    resume: "https://drive.google.com/file/d/1KvgxyDtOcypjjXGooOPLgHSkzZoCquNH/view",
+    resume: "https://drive.google.com/file/d/18c7HSIERrrWNTylpXxukYl_F5yJoNPx_/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/shahla-hassan/",
   };
   
@@ -253,6 +253,20 @@ export const Bio = {
       category: "web app",
       github: "https://github.com/shahlahassan123/ChatGPT_clone_MERN",
       webapp: "https://chatgpt-clone-mern-frontend.onrender.com/",
+    },
+
+    {
+      id: 4,
+      title: "Take Off",
+      description:
+        "This site will serve as a hub where users can create professional connections, discuss issues related to business & employment, & further their professional development. Users will be able to build out a network of like-minded individuals and create sustainable long-lasting connections with other professionals.",
+      image: "./TakeOff.png",
+      tags: [
+        "React", "HTML", "CSS", "Google Firebase"
+      ],
+      category: "web app",
+      github: "https://github.com/shahlahassan123/Social_Networking_Site",
+      webapp: "https://main.d1skxlwb5efku.amplifyapp.com/",
     },
 
 
