@@ -27,7 +27,12 @@ export const Bio = {
           image:
             "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
         },
-        
+        {
+          name : "Tailwind CSS",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+
+        },
         {
           name: "HTML",
           image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -85,7 +90,7 @@ export const Bio = {
         {
           name: "Git",
           image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+            "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
         },
         {
           name: "Docker",
@@ -95,7 +100,7 @@ export const Bio = {
         {
           name: "Postman",
           image:
-            "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+            "https://cdn.worldvectorlogo.com/logos/postman.svg",
         },
         {
           name: "Selenium WebDriver",
@@ -109,6 +114,15 @@ export const Bio = {
   export const experiencesList = [
     {
       id: 0,
+      img: "./Keelworks.jpeg",
+      role: "Full Stack Developer",
+      company: "KEELWORKS",
+      date: "March 2024 - Present",
+      desc: "• Spearheaded the revamp of the company’s website, utilizing React.js and Tailwind CSS, resulting in a 40% increase in donations by significantly enhancing user experience, streamlining navigation, and site functionality (keelworks.org) \n • Developed modular components, reducing development time by 25% and ensuring code reusability & mantainability \n • Conducted detailed code reviews to optimize performance, identify issues, and ensure high-quality code for releases"
+      
+    },
+    {
+      id: 1,
       img: "./aboveandbeyond.jpeg",
       role: "Full Stack Developer Intern",
       company: "ABOVE AND BEYOND STUDIOS",
@@ -117,7 +131,7 @@ export const Bio = {
       
     },
     {
-      id: 1,
+      id: 2,
       img: "./nbk.png",
       role: "Senior Software Development Engineer in Test",
       company: "NATIONAL BANK OF KUWAIT",
@@ -126,7 +140,7 @@ export const Bio = {
       
     },
     {
-      id: 2,
+      id: 3,
       img: "https://www.hesabe.com/public/new_static_site/homepage/images/hesabe-new-logo.png?e",
       role: "Software Development Engineer in Test",
       company: "URSOURCE PVT LTD", 
@@ -135,7 +149,7 @@ export const Bio = {
       
     },
     {
-      id: 3,
+      id: 4,
       img: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Accenture-logo.png",
       role: "Software Development Engineer in Test ", 
       company: "ACCENTURE SOLUTIONS PVT LTD",
@@ -148,10 +162,10 @@ export const Bio = {
   export const educationList = [
     {
       id: 0,
-      img: "https://greencitygrowers.com/wp-content/uploads/2020/07/boston-university-logo-bu-vector-eps-free-download-logo-icons-brand-emblems-148777131548ngk-1536x688.png",
+      img: "./BU.jpg",
       school: "BOSTON UNIVERSITY",
-      date: "Sep 2022 - Dec 2023",
-      grade: "3.9 GPA",
+      date: "Sep 2022 - Jan 2024",
+      grade: "3.89 GPA",
       desc: "My coursework encompasses critical subjects such as 'Information Structures with Python', 'Data Structures and Algorithms', 'Web Application Development', 'Server Side Development', 'Software Design and Patterns', 'Database Design and Implementation', 'Advanced Programming Techniques' and 'Software Engineering'. ",
       degree: "Master of Science in Software Development",
     },
@@ -227,33 +241,33 @@ export const Bio = {
       webapp: "https://rahil-bassim-photography.vercel.app/",
     },
 
-    {
-      id: 3,
-      title: "Blogs",
-      description:
-        "This is a blog website display blogs of different categories.",
-      image: "./Blogs3.png",
-      tags: [
-        "React", "HTML", "CSS", "Node.js", "MongoDB"
-      ],
-      category: "web app",
-      github: "https://github.com/shahlahassan123/Blogs_MERN/tree/main",
-      webapp: "https://blogs-mern-frontend.onrender.com/",
-    },
+    // {
+    //   id: 3,
+    //   title: "Blogs",
+    //   description:
+    //     "This is a blog website display blogs of different categories.",
+    //   image: "./Blogs3.png",
+    //   tags: [
+    //     "React", "HTML", "CSS", "Node.js", "MongoDB"
+    //   ],
+    //   category: "web app",
+    //   github: "https://github.com/shahlahassan123/Blogs_MERN/tree/main",
+    //   webapp: "https://blogs-mern-frontend.onrender.com/",
+    // },
 
-    {
-      id: 4,
-      title: "ChatGPT Clone",
-      description:
-        "This is a clone of ChatGPT.",
-      image: "./ChatGPT.png",
-      tags: [
-        "React", "HTML", "CSS", "Node.js", "MongoDB"
-      ],
-      category: "web app",
-      github: "https://github.com/shahlahassan123/ChatGPT_clone_MERN",
-      webapp: "https://chatgpt-clone-mern-frontend.onrender.com/",
-    },
+    // {
+    //   id: 4,
+    //   title: "ChatGPT Clone",
+    //   description:
+    //     "This is a clone of ChatGPT.",
+    //   image: "./ChatGPT.png",
+    //   tags: [
+    //     "React", "HTML", "CSS", "Node.js", "MongoDB"
+    //   ],
+    //   category: "web app",
+    //   github: "https://github.com/shahlahassan123/ChatGPT_clone_MERN",
+    //   webapp: "https://chatgpt-clone-mern-frontend.onrender.com/",
+    // },
 
     {
       id: 4,
