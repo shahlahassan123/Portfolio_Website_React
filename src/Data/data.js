@@ -11,7 +11,7 @@ export const Bio = {
     github: "https://github.com/shahlahassan123",
     // resume:
     //   "https://drive.google.com/file/d/1HFJ0zRY80GUg3tvYLUwO4pV9AHQYpVZm/view?usp=drive_link",
-    resume: "https://drive.google.com/file/d/18c7HSIERrrWNTylpXxukYl_F5yJoNPx_/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1feqPVtXdB2yykEOdKa_A1zOF3udeGSFO/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/shahla-hassan/",
   };
   
