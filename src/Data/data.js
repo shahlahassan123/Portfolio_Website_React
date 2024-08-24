@@ -241,19 +241,19 @@ export const Bio = {
       webapp: "https://rahil-bassim-photography.vercel.app/",
     },
 
-    // {
-    //   id: 3,
-    //   title: "Blogs",
-    //   description:
-    //     "This is a blog website display blogs of different categories.",
-    //   image: "./Blogs3.png",
-    //   tags: [
-    //     "React", "HTML", "CSS", "Node.js", "MongoDB"
-    //   ],
-    //   category: "web app",
-    //   github: "https://github.com/shahlahassan123/Blogs_MERN/tree/main",
-    //   webapp: "https://blogs-mern-frontend.onrender.com/",
-    // },
+    {
+      id: 3,
+      title: "Blogs",
+      description:
+        "This is a blog website display blogs of different categories.",
+      image: "./Blogs3.png",
+      tags: [
+        "React", "HTML", "CSS", "Node.js", "MongoDB"
+      ],
+      category: "web app",
+      github: "https://github.com/shahlahassan123/Blogs_MERN/tree/main",
+      webapp: "https://blogs-mern-frontend.onrender.com/",
+    },
 
     // {
     //   id: 4,
