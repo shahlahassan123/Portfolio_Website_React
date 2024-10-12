@@ -182,6 +182,19 @@ export const Bio = {
   
   export const projects = [
     {
+      id: 12,
+      title: "Shop Online",
+      description:
+        "An e-commerce website that enables users to browse products, add products to a cart, and place orders successfully.",
+      image: "./e-commerce.png",
+      tags: [
+        "React", "Tailwind CSS",
+      ],
+      category: "web app",
+      github: "https://github.com/shahlahassan123/Ecommerce_React",
+      webapp: "https://ecommerce-reactapp-j37u.onrender.com/",
+    },
+    {
       id: 9,
       title: "Wordle",
       description:
@@ -241,19 +254,19 @@ export const Bio = {
       webapp: "https://rahil-bassim-photography.vercel.app/",
     },
 
-    {
-      id: 3,
-      title: "Blogs",
-      description:
-        "This is a blog website display blogs of different categories.",
-      image: "./Blogs3.png",
-      tags: [
-        "React", "HTML", "CSS", "Node.js", "MongoDB"
-      ],
-      category: "web app",
-      github: "https://github.com/shahlahassan123/Blogs_MERN/tree/main",
-      webapp: "https://blogs-mern-frontend.onrender.com/",
-    },
+    // {
+    //   id: 3,
+    //   title: "Blogs",
+    //   description:
+    //     "This is a blog website display blogs of different categories.",
+    //   image: "./Blogs3.png",
+    //   tags: [
+    //     "React", "HTML", "CSS", "Node.js", "MongoDB"
+    //   ],
+    //   category: "web app",
+    //   github: "https://github.com/shahlahassan123/Blogs_MERN/tree/main",
+    //   webapp: "https://blogs-mern-frontend.onrender.com/",
+    // },
 
     // {
     //   id: 4,
