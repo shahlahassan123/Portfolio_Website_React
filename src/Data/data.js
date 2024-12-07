@@ -11,7 +11,8 @@ export const Bio = {
     github: "https://github.com/shahlahassan123",
     // resume:
     //   "https://drive.google.com/file/d/1HFJ0zRY80GUg3tvYLUwO4pV9AHQYpVZm/view?usp=drive_link",
-    resume: "https://drive.google.com/file/d/1feqPVtXdB2yykEOdKa_A1zOF3udeGSFO/view?usp=sharing",
+    // resume: "https://drive.google.com/file/d/1feqPVtXdB2yykEOdKa_A1zOF3udeGSFO/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/15KcokNvzzHs-muzbWjucKN2g14tXnuJ2/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/shahla-hassan/",
   };
   
@@ -21,6 +22,11 @@ export const Bio = {
           name: "React Js",
           image:
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        },
+        {
+          name: "TypeScript",
+          image:
+            "https://cdn.iconscout.com/icon/free/png-256/free-typescript-logo-icon-download-in-svg-png-gif-file-formats--programming-language-logos-pack-icons-1174965.png?f=webp&w=256",
         },
         {
           name: "Redux",
@@ -107,6 +113,16 @@ export const Bio = {
           image:
             "https://static-00.iconduck.com/assets.00/selenium-icon-512x496-obrnvg2v.png",
         },
+        {
+          name: "AWS",
+          image:
+            "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/102017/logo_0.png?17TK91b1B6OvV2MFrCLfukw1c8oEaNr6&itok=vsanFiUj",
+        },
+        {
+          name: "Jest",
+          image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJSJmlNYGBG0wZYVdNpEFAPzVSnGM3LdOIBw&s",
+        },
         
       ,
   ];
@@ -117,7 +133,7 @@ export const Bio = {
       img: "./Keelworks.jpeg",
       role: "Full Stack Developer",
       company: "KEELWORKS",
-      date: "March 2024 - Present",
+      date: "2024 - Present",
       desc: "• Spearheaded the revamp of the company’s website, utilizing React.js and Tailwind CSS, resulting in a 40% increase in donations by significantly enhancing user experience, streamlining navigation, and site functionality (keelworks.org) \n • Developed modular components, reducing development time by 25% and ensuring code reusability & mantainability \n • Conducted detailed code reviews to optimize performance, identify issues, and ensure high-quality code for releases"
       
     },
@@ -126,35 +142,35 @@ export const Bio = {
       img: "./aboveandbeyond.jpeg",
       role: "Full Stack Developer Intern",
       company: "ABOVE AND BEYOND STUDIOS",
-      date: "May 2023 - Aug 2023",
-      desc: "• Revamped `Shop with Freedom` Chrome extension, enriching online shopping through local shop discovery, seamless online coupon browsing, and real-time price tracking features \n • Significantly elevated 'Shop with Freedom' extension through impactful UI redesign, strategically integrating innovative features, and ultimately enhancing user experience \n • Seamlessly integrated HTML, CSS, JavaScript, React.js, and Node.js technologies to create a cohesive and dynamic framework, optimizing the functionality and performance of the 'Shop with Freedom' extension",
-      
+      date: "2023 - 2023",
+      // desc: "• Revamped `Shop with Freedom` Chrome extension, enriching online shopping through local shop discovery, seamless online coupon browsing, and real-time price tracking features \n • Significantly elevated 'Shop with Freedom' extension through impactful UI redesign, strategically integrating innovative features, and ultimately enhancing user experience \n • Seamlessly integrated HTML, CSS, JavaScript, React.js, and Node.js technologies to create a cohesive and dynamic framework, optimizing the functionality and performance of the 'Shop with Freedom' extension",
+      desc : "• Seamlessly leveraged React.js, Node.js, JavaScript, CSS and HTML technologies to create a cohesive and dynamic framework, optimizing the functionality & performance of the Shop with Freedom’s chrome extension \n • Revamped the Chrome extension with features like local shop discovery, coupon browsing, & real-time price tracking, boosting user engagement by 25% \n • Redesigned the UI, adding innovative features that enhanced user experience and reduced bounce rates by 20%."
     },
     {
       id: 2,
       img: "./nbk.png",
-      role: "Senior Software Development Engineer in Test",
+      role: "Senior Software Development Engineer",
       company: "NATIONAL BANK OF KUWAIT",
-      date: "Dec 2021 - June 2022",
-      desc: "• Led Business Acceptance Testing for a new sales CRM (customer relationship management) project for one of the biggest banks in the Middle East as a consultant, ensuring effective execution and seamless integration• Orchestrated testing plans for business requests, optimizing resource allocation to enhance software quality\n • Played a vital role in executing key project initiatives, ensuring their successful implementation through efficient teamwork, and streamlined processes",
+      date: "2021 - 2022",
+      desc: "• Developed front-end components for a new sales CRM (Customer Relationship Management) tool using React.js ensuring a responsive and visually appealing user interface for one of the largest banks in the Middle East.\n • Implemented dynamic UI components with Material UI, enhancing the usability and accessibility of key features while maintaining design consistency across the application.\n• Collaborated with cross-functional teams, integrating front-end modules with back-end systems to deliver features such as account details, transaction history, and beneficiary information seamlessly. \n • Played a vital role in delivering critical project features, including coding and debugging front-end modules, ensuring successful implementation through effective teamwork and streamlined processes"
       
     },
     {
       id: 3,
       img: "https://www.hesabe.com/public/new_static_site/homepage/images/hesabe-new-logo.png?e",
-      role: "Software Development Engineer in Test",
+      role: "Software Development Engineer",
       company: "URSOURCE PVT LTD", 
-      date: "Oct 2020 - Nov 2021",
-      desc: "• Integral role in developing and delivering innovative IT solutions for Ecommerce and corporate web products \n• Demonstrated proficiency by successfully testing and deploying 7 projects within a year. Projects encompasseddiverse areas such as online food ordering websites, Android applications, and iOS applications \n• Acted as key liaison between sales and development teams, ensuring seamless project execution",
+      date: "2020 - 2021",
+      desc: "• Integral role in developing and delivering innovative frontend solutions for e-commerce platforms and corporate web products, utilizing React.js, HTML, CSS, and JavaScript to create responsive and user- friendly interfaces.\n• Demonstrated proficiency by successfully designing, developing, testing, and deploying 7 projects within a year, including online food ordering websites and corporate web applications, ensuring high- quality, responsive designs.\n• Developed cross-platform mobile applications using React Native, delivering seamless performance and a consistent user experience for both Android and iOS platforms.",
       
     },
     {
       id: 4,
       img: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Accenture-logo.png",
-      role: "Software Development Engineer in Test ", 
+      role: "Software Development Engineer", 
       company: "ACCENTURE SOLUTIONS PVT LTD",
-      date: "March 2017 - Nov 2019",
-      desc: "• Functioned as an Engineering Analyst within a North America-based healthcare payer, streamlining insurance claim processes through diverse web apps designed to investigate and validate claims using diagnosis codes \n • Led and mentored a five-member team, achieving tasks within set timelines while fostering skill development\n • Developed precise Selenium WebDriver Test Scripts (Python) and Test Cases (Java)\n • Orchestrated the comprehensive management of SDLC (Software development life cycle), software testing processes, and Bug Life Cycle ; including precise bug tracking in JIRA \n • Executed diverse tests: Integration, Regression, Functional, Non-functional, Smoke, Sanity & Acceptance  \n • Collaborated on Test Planning, Execution, and Database Testing involving MySQL and ArangoDB\n • Responsible for code deployment across testing and production environments via Git, Docker, and Kubernetes \n • Provided weekly project progress updates to clients, ensuring transparency and effective communication \n • Offered post-live support for three months to ensure seamless functionality and resolve any issues",  
+      date: "2017 - 2019",
+      desc: "• Designed and developed responsive web applications for the insurance claim process using React.js, Redux, and Bootstrap,enabling seamless interaction for users uploading and reviewing medical charts.\n• Created and integrated RESTful APIs using Node.js, streamlining data flow between the frontend applications (Medical Chart Upload,Indexing, and Chart Review) and backend systems, ensuring efficient processing of medical chart details.\n• Optimized database operations with MySQL, enhancing query performance and ensuring the integrity of patient and provider data during indexing and chart review. \n• Tested API functionality using Postman, verifying reliable communication between the multiple applications involved in the insurance claim process.\n• Developed and executed automated test scripts using Selenium WebDriver with Java and Python, ensuring the robustness and reliability of the web applications. \n• Managed end-to-end deployment using Git and Docker across development, testing and production environments",  
     },
     
   ];
@@ -164,7 +180,7 @@ export const Bio = {
       id: 0,
       img: "./BU.jpg",
       school: "BOSTON UNIVERSITY",
-      date: "Sep 2022 - Jan 2024",
+      date: "Sep 2022 - May 2024",
       grade: "3.89 GPA",
       desc: "My coursework encompasses critical subjects such as 'Information Structures with Python', 'Data Structures and Algorithms', 'Web Application Development', 'Server Side Development', 'Software Design and Patterns', 'Database Design and Implementation', 'Advanced Programming Techniques' and 'Software Engineering'. ",
       degree: "Master of Science in Software Development",
