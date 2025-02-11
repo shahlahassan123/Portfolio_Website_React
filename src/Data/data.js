@@ -1,10 +1,12 @@
 export const Bio = {
     name: "Shahla Hassan",
     roles: [
+      " Java Full Stack Engineer",
       " Full Stack Developer",
       " Frontend Developer",
       " Software Developer",
-      " Software QA Engineer",
+      " Backend Developer",
+      
     ],
     description:
       "I'm an eager and adaptable individual, always up for new challenges. Fueled by a love for learning, I'm committed to delivering top-notch results with a positive and growth-focused mindset.",
@@ -12,7 +14,8 @@ export const Bio = {
     // resume:
     //   "https://drive.google.com/file/d/1HFJ0zRY80GUg3tvYLUwO4pV9AHQYpVZm/view?usp=drive_link",
     // resume: "https://drive.google.com/file/d/1feqPVtXdB2yykEOdKa_A1zOF3udeGSFO/view?usp=sharing",
-    resume: "https://drive.google.com/file/d/15KcokNvzzHs-muzbWjucKN2g14tXnuJ2/view?usp=sharing",
+    // resume: "https://drive.google.com/file/d/15KcokNvzzHs-muzbWjucKN2g14tXnuJ2/view?usp=sharing",
+    resume : "https://drive.google.com/file/d/1ClEncVst2vcjncs78Sf5FEDd-YLcw7mT/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/shahla-hassan/",
   };
   
@@ -22,6 +25,20 @@ export const Bio = {
           name: "React Js",
           image:
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        },
+        {
+          name: "Java",
+          image:
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+        },
+        {
+          name : "Spring Boot",
+          image : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8i4zPog-0j0JR_yZglxPhTPZXxN2iMTQ3Dw&s",
+        },
+        {
+          name: "Microservice Architecture",
+          image:
+            "https://solace.com/wp-content/uploads/2020/05/microservices-300x300.png",
         },
         {
           name: "TypeScript",
@@ -88,11 +105,7 @@ export const Bio = {
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
         },
-        {
-          name: "Java",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-        },
+        
         {
           name: "Git",
           image:
@@ -123,57 +136,62 @@ export const Bio = {
           image:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJSJmlNYGBG0wZYVdNpEFAPzVSnGM3LdOIBw&s",
         },
+        {
+          name: "Jenkins",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1483px-Jenkins_logo.svg.png",
+        },
+        {
+          name: "Apache Kafka",
+          image:
+            "https://logosandtypes.com/wp-content/uploads/2020/07/kafka.png",
+        },
         
-      ,
+      
   ];
   
+  
   export const experiencesList = [
-    {
-      id: 0,
-      img: "./Keelworks.jpeg",
-      role: "Full Stack Developer",
-      company: "KEELWORKS",
-      date: "2024 - Present",
-      desc: "• Spearheaded the revamp of the company’s website, utilizing React.js and Tailwind CSS, resulting in a 40% increase in donations by significantly enhancing user experience, streamlining navigation, and site functionality (keelworks.org) \n • Developed modular components, reducing development time by 25% and ensuring code reusability & mantainability \n • Conducted detailed code reviews to optimize performance, identify issues, and ensure high-quality code for releases"
-      
-    },
-    {
-      id: 1,
-      img: "./aboveandbeyond.jpeg",
-      role: "Full Stack Developer Intern",
-      company: "ABOVE AND BEYOND STUDIOS",
-      date: "2023 - 2023",
-      // desc: "• Revamped `Shop with Freedom` Chrome extension, enriching online shopping through local shop discovery, seamless online coupon browsing, and real-time price tracking features \n • Significantly elevated 'Shop with Freedom' extension through impactful UI redesign, strategically integrating innovative features, and ultimately enhancing user experience \n • Seamlessly integrated HTML, CSS, JavaScript, React.js, and Node.js technologies to create a cohesive and dynamic framework, optimizing the functionality and performance of the 'Shop with Freedom' extension",
-      desc : "• Seamlessly leveraged React.js, Node.js, JavaScript, CSS and HTML technologies to create a cohesive and dynamic framework, optimizing the functionality & performance of the Shop with Freedom’s chrome extension \n • Revamped the Chrome extension with features like local shop discovery, coupon browsing, & real-time price tracking, boosting user engagement by 25% \n • Redesigned the UI, adding innovative features that enhanced user experience and reduced bounce rates by 20%."
-    },
-    {
-      id: 2,
-      img: "./nbk.png",
-      role: "Senior Software Development Engineer",
-      company: "NATIONAL BANK OF KUWAIT",
-      date: "2021 - 2022",
-      desc: "• Developed front-end components for a new sales CRM (Customer Relationship Management) tool using React.js ensuring a responsive and visually appealing user interface for one of the largest banks in the Middle East.\n • Implemented dynamic UI components with Material UI, enhancing the usability and accessibility of key features while maintaining design consistency across the application.\n• Collaborated with cross-functional teams, integrating front-end modules with back-end systems to deliver features such as account details, transaction history, and beneficiary information seamlessly. \n • Played a vital role in delivering critical project features, including coding and debugging front-end modules, ensuring successful implementation through effective teamwork and streamlined processes"
-      
-    },
-    {
-      id: 3,
-      img: "https://www.hesabe.com/public/new_static_site/homepage/images/hesabe-new-logo.png?e",
-      role: "Software Development Engineer",
-      company: "URSOURCE PVT LTD", 
-      date: "2020 - 2021",
-      desc: "• Integral role in developing and delivering innovative frontend solutions for e-commerce platforms and corporate web products, utilizing React.js, HTML, CSS, and JavaScript to create responsive and user- friendly interfaces.\n• Demonstrated proficiency by successfully designing, developing, testing, and deploying 7 projects within a year, including online food ordering websites and corporate web applications, ensuring high- quality, responsive designs.\n• Developed cross-platform mobile applications using React Native, delivering seamless performance and a consistent user experience for both Android and iOS platforms.",
-      
-    },
-    {
-      id: 4,
-      img: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Accenture-logo.png",
-      role: "Software Development Engineer", 
-      company: "ACCENTURE SOLUTIONS PVT LTD",
-      date: "2017 - 2019",
-      desc: "• Designed and developed responsive web applications for the insurance claim process using React.js, Redux, and Bootstrap,enabling seamless interaction for users uploading and reviewing medical charts.\n• Created and integrated RESTful APIs using Node.js, streamlining data flow between the frontend applications (Medical Chart Upload,Indexing, and Chart Review) and backend systems, ensuring efficient processing of medical chart details.\n• Optimized database operations with MySQL, enhancing query performance and ensuring the integrity of patient and provider data during indexing and chart review. \n• Tested API functionality using Postman, verifying reliable communication between the multiple applications involved in the insurance claim process.\n• Developed and executed automated test scripts using Selenium WebDriver with Java and Python, ensuring the robustness and reliability of the web applications. \n• Managed end-to-end deployment using Git and Docker across development, testing and production environments",  
-    },
     
-  ];
+      {
+        "id": 0,
+        "img": "https://searchvectorlogo.com/wp-content/uploads/2019/11/wayfair-logo-vector.png",
+        "role": "Software Engineer",
+        "company": "WAYFAIR",
+        "date": "2024 - Present",
+        "desc": "• Spearheaded the revamp of Wayfair’s e-commerce payment processing platform using React.js and Tailwind CSS, optimizing the user interface for a smoother customer journey and boosting transaction success rates by 40% through improved navigation and user-centric design.\n• Authored reusable, modular UI components with React.js, reducing development cycles by 25% and ensuring consistency and scalability across multiple e-commerce platforms and customer-facing touchpoints.\n• Implemented CI/CD pipelines using Jenkins, automating deployment processes and reducing release times by 30%, ensuring faster and more reliable software delivery.\n• Collaborated with cross-functional teams to integrate Java, Spring Boot, and RESTful APIs, enabling seamless data exchange between the front-end and back-end systems and enhancing the overall efficiency of Wayfair’s e-commerce transaction flows.\n• Developed and maintained critical backend services using Java, Spring Boot, and Hibernate, improving database performance and ensuring robust handling of large-scale, real-time transaction volumes in Wayfair’s global online marketplace.\n• Facilitated the implementation of a Microservices architecture, improving system scalability and responsiveness, and leveraging Kafka for event-driven processing to ensure real-time updates on inventory and transaction statuses.\n• Integrated payment processing features within the platform, ensuring secure and efficient handling of international payments and compliance with regulatory standards.\n• Expertise in deploying and managing cloud-based solutions on AWS, ensuring continuous uptime, scalability, and optimal performance of Wayfair’s e-commerce platform, while supporting high-volume transactions and dynamic inventory management."
+      },
+      {
+        "id": 1,
+        "img": "./nbk.png",
+        "role": "Senior Software Development Engineer",
+        "company": "National Bank of Kuwait",
+        "date": "2021 - 2022",
+        "desc": "• Developed front-end components for a new sales CRM tool using React.js, ensuring a responsive and visually appealing user interface for one of the largest banks in the Middle East.\n• Implemented dynamic UI components with Material UI, enhancing usability and accessibility while maintaining design consistency across the application.\n• Collaborated with cross-functional teams to integrate front-end modules with back-end systems, delivering seamless features such as account details, transaction history, and beneficiary information.\n• Played a vital role in delivering critical project features by coding and debugging key functionalities for smooth implementation.\n• Optimized front-end performance by refining and debugging code to ensure smooth user interactions and enhanced system responsiveness.\n• Worked closely with backend developers, ensuring robust data flow between the front-end modules and back-end services, aligning with project requirements."
+      },
+      {
+        "id": 2,
+        "img": "https://www.hesabe.com/public/new_static_site/homepage/images/hesabe-new-logo.png?e",
+        "role": "Software Development Engineer",
+        "company": "URSOURCE PVT LTD",
+        "date": "2020 - 2021",
+        "desc": "• Integral role in developing and delivering innovative frontend solutions for e-commerce platforms, online food delivery platforms, and corporate web products, utilizing React.js, HTML, CSS, and JavaScript to create responsive and user-friendly interfaces.\n• Collaborated on building scalable, modular e-commerce applications using Microservices architecture, ensuring enhanced flexibility and maintainability across multiple projects.\n• Demonstrated proficiency by designing, developing, testing, and deploying 7 projects within a year, including online food ordering websites and corporate applications, with a focus on high-quality, responsive designs.\n• Leveraged Bootstrap for creating responsive layouts and ensuring cross-device compatibility and smooth user experience on both desktop and mobile platforms.\n• Integrated Java and Hibernate for backend services, optimizing database operations and ensuring seamless data handling across applications.\n• Orchestrated real-time data processing and event-driven communication using Kafka, ensuring efficient handling of transactions and user interactions within the applications."
+      },
+      {
+        "id": 3,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Accenture-logo.png",
+        "role": "Software Development Engineer",
+        "company": "Accenture",
+        "date": "2017 - 2019",
+        "desc": "• Authored and developed responsive web applications for the insurance claim process using React.js, Redux, and Bootstrap, ensuring seamless interaction for users uploading and reviewing medical charts.\n• Crafted and integrated RESTful APIs with Node.js, optimizing data flow between front-end applications and back-end systems to support medical chart indexing and review.\n• Optimized database operations with MySQL, improving query performance and maintaining the integrity of patient and provider data during critical processes.\n• Carried out API testing with Postman, verifying the stability and reliability of interactions between different components in the insurance claim application.\n• Developed and executed automated tests using Selenium WebDriver with Java and Python, ensuring the robustness and reliability of the applications across environments.\n• Collaborated on end-to-end deployment processes using Git and Docker, overseeing smooth transitions from development through to testing and production.\n• Facilitated the optimization of user interface elements in React.js to ensure an intuitive and responsive user experience for both claimants and providers.\n• Acquired proficiency in managing cloud-based deployments and ensuring scalable solutions through Docker and continuous integration workflows."
+      }
+    
+    
+  ]
+
+
+
+
   
   export const educationList = [
     {

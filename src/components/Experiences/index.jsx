@@ -21,7 +21,7 @@ const Experiences = () => {
                 <Timeline>
                  {experiencesList.map((exp,index)=>{
                     return(
-                        <TimelineItem>
+                        <TimelineItem key={index}>
                             <TimelineSeparator>
                                 <TimelineDot variant='outlined' color='secondary'></TimelineDot>
                                 {index !== experiencesList.length  && <TimelineConnector style={{background: '#854CE6'}}></TimelineConnector>}

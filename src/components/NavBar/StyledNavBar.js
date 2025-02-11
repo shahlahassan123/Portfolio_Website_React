@@ -17,7 +17,7 @@ padding: 0.5rem;
 @media screen  and (max-width :960px){
     /* transition: 1s all ease; */
     padding: 1rem;
-    height: ${({isMenuOpen})=> isMenuOpen ? '100vh' : '10%'};
+    height: ${({$isMenuOpen})=> $isMenuOpen ? '100vh' : '10%'};
     flex-direction: column;
    
 }

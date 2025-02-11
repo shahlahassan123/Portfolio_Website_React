@@ -21,7 +21,7 @@ const NavBar = () => {
 
 
   return (
-      <Nav isMenuOpen={isMenuOpen}>
+      <Nav $isMenuOpen={isMenuOpen}>
           <NavContainer>
               <NavLogo to="/">
                   PORTFOLIO

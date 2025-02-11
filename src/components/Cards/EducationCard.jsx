@@ -120,7 +120,7 @@ const EducationCard = ({education}) => {
     </Top>
     <StyledDescription>
         {education.desc && education.desc.split("\n").map((ed, ind)=>{
-            return <Span>{ed}</Span>
+            return <Span key={ind}>{ed}</Span>
         })}
     </StyledDescription>
 

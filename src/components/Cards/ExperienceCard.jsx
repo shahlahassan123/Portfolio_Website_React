@@ -111,8 +111,8 @@ const ExperienceCard = ({experience}) => {
         </Body>
     </Top>
     <StyledDescription>
-        {experience.desc.split("\n").map((exp, ind)=>{
-            return <Span>{exp}</Span>
+        {(experience.desc ?? "").split("\n").map((exp, ind)=>{
+            return <Span key={ind}>{exp}</Span>
         })}
     </StyledDescription>
 
